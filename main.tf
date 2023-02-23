@@ -11,7 +11,7 @@ data "aws_availability_zones" "available" {
   }
 }
 
-resource "aws_vpc" "example" {
+resource "aws_vpc" "exampleTest" {
   cidr_block = var.vpc_cidr_block
 
   tags = {
